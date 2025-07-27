@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Animation Rates</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      margin: 0;
+      background: url('plufow-le-studio-5Q6yZN8ckuY-unsplash.jpg') no-repeat center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 36px;
+    }
+
+    .rate {
+      font-size: 20px;
+      margin-top: 12px;
+      color: #222;
+    }
+
+    .button,
+    .add-btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: orange;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: bold;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    .button a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .add-btn:hover {
+      background-color: #ff9800;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 20px;
+      }
+
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .rate {
+        font-size: 18px;
+      }
+
+      .button,
+      .add-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+
+      .rate {
+        font-size: 16px;
+      }
+
+      .button,
+      .add-btn {
+        padding: 10px 18px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>3D Animation Service</h1>
+    <p class="rate">Basic Animation: ₹1,000 per minute</p>
+    <p class="rate">Advanced Animation with characters: ₹2,500 per minute</p>
+
+    <button class="add-btn">Add to Kart</button>
+    <br>
+
+    <div class="button"><a href="portfolio.html">Back to Portfolio</a></div>
+  </div>
+</body>
+</html>
